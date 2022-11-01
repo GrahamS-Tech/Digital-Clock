@@ -1,10 +1,28 @@
 <!DOCTYPE html>
 <html>
-    <header>
-        <title>Digital Clock</title>
-    </header>
-    <body>
-        <h1>10:16 AM</h1>
-        <h1>Friday, October 28th, 2022</h1>
-    </body>
+  <header>
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="styles.css"
+  </header>
+  <body>
+      <div id="clock-buttons">
+        <div class="clock-button-small"></div>
+        <div class="clock-button-small"></div>
+        <div class="clock-button-small"></div>
+        <div class="clock-button-small"></div>
+        <div class="clock-button-large"></div>
+      </div>
+      <div id="clock-face">
+        <h1 id="time-display">11:00:00 PM</h1>
+        <h1 id="date-display">10/29/2022</h1>
+      </div>
+      <div id="clock-feet">
+        <div id="clock-foot-left"></div>
+        <div id="clock-foot-right"></div>
+      </div>
+      <div id="toggle-button">
+        <input id="time-format-toggle" type="button" value="12hr Time" />
+      </div>
+    <script src="code.js"></script>
+  </body>
 </html>

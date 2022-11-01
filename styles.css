@@ -1,0 +1,71 @@
+@font-face {
+  font-family: DigitalClock;
+  src: url("../digital-7.regular.ttf");
+}
+
+#clock-buttons {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.clock-button-small {
+  width: 35px;
+  height: 15px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.clock-button-large {
+  width: 100px;
+  height: 15px;
+  background-color: black;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+#clock-face {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: black;
+  font-family: DigitalClock;
+  font-size: larger;
+  color: chartreuse;
+  padding: 10px;
+  outline: 8px solid gray;
+}
+
+#clock-feet {
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#clock-foot-left {
+  width: 80px;
+  height: 15px;
+  background-color: gray;
+  margin-left: 10px;
+  display:inline-block
+}
+
+#clock-foot-right {
+  width: 80px;
+  height: 15px;
+  background-color: gray;
+  margin-left: 215px;
+  display: inline-block;
+}
+
+#toggle-button {
+  text-align: center;
+  padding-top: 20px;
+}
