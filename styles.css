@@ -5,15 +5,16 @@
 
 #clock-buttons {
   width: 400px;
+  height: 15px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 25px;
 }
 
 .clock-button-small {
-  width: 35px;
-  height: 15px;
+  width: 30px;
+  height: 12px;
   background-color: black;
-  margin-top: 20px;
   margin-left: 10px;
   margin-right: 10px;
   display: inline-block;
@@ -21,10 +22,9 @@
 
 .clock-button-large {
   width: 100px;
-  height: 15px;
+  height: 12px;
   background-color: black;
-  margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 70px;
   margin-right: 10px;
   display: inline-block;
 }
@@ -40,7 +40,9 @@
   font-size: larger;
   color: chartreuse;
   padding: 10px;
-  outline: 8px solid gray;
+  margin-top: 0;
+  border: 8px solid gray;
+  border-radius: 15px;
 }
 
 #clock-feet {
