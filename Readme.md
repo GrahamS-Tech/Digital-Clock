@@ -4,7 +4,7 @@
 
 See it [here](https://kendric84.github.io/Digital-Clock/)
 
-![App Screenshot](ss.png)
+![App Screenshot](SS.png)
 
 ## Summary
 This simple digital clock will allow you to switch between 12 hour time and military time.
